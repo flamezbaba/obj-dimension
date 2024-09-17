@@ -1,0 +1,20 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs-node": "^4.21.0",
+    "canvas": "^2.11.2",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.13.0",
+    "googleapis": "^140.0.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
