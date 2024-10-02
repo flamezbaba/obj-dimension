@@ -10,7 +10,7 @@ const path = require("path");
 
 // Set up Express
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Set up Multer for file upload handling
 const upload = multer({ dest: "uploads/" });
@@ -114,6 +114,6 @@ app.post('/detect', upload.single('image'), async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log('Server running on port 3000');
 });
